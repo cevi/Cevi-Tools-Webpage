@@ -23,7 +23,7 @@ email: info@cevi.tools
 description: >- # this means to ignore newlines until "baseurl:"
   Wir entwickeln innovative Webtools für Cevi / Pfadi / Jubla,
   um die Arbeit in der Abteilung, in Lagern oder Kursen zu vereinfachen.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/Cevi-Tools-Webpage" # the subpath of your site, e.g. /blog
 url: "https://cevi.tools" # the base hostname & protocol for your site
 github_username:  Cevi
 
