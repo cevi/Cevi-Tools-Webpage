@@ -11,3 +11,10 @@ tools developed by the Cevi community.
 
 
     $ bundle exec jekyll serve
+
+
+## Common issues & how to resolve
+
+- Windows: 
+Error "cannot load such file -- webrick" see https://talk.jekyllrb.com/t/load-error-cannot-load-such-file-webrick/5417 and https://github.com/jekyll/jekyll/issues/8523
+run -> bundle add webrick
