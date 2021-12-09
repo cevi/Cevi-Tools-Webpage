@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Über uns
-permalink: /ueber-uns
+permalink: /ueber-uns/
 ---
 
 # Digitale Tools für Cevi-Lager und Kurse

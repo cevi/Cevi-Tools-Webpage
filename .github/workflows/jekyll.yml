@@ -1,0 +1,31 @@
+name: Jekyll site CI
+
+on:
+  pull_request:
+    branches: [ gh-pages ]
+
+jobs:
+  jekyll:
+    name: Build and deploy Jekyll site
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Build
+      uses: jerryjvl/jekyll-build-action@v1
+      
+    - run: sudo chown -R $USER:$USER .
+    - run: |
+            echo "{ \"hosting\": { \"public\": \".\", \"cleanUrls\": true, \"trailingSlash\": false }}" > _site/firebase.json    
+
+    - uses: FirebaseExtended/action-hosting-deploy@v0
+      with:
+          repoToken: '${{ secrets.GITHUB_TOKEN }}'
+          firebaseServiceAccount: '${{ secrets.CEVI_TOOLS_FIREBASE_PREVIEW_TOKEN}}'
+          channelId: dev
+          entryPoint: _site
+          projectId: cevi-tools-preview-deployment
+      env:
+          FIREBASE_CLI_PREVIEWS: hostingchannels
