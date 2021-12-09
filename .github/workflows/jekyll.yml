@@ -16,9 +16,10 @@ jobs:
     - name: Build
       uses: jerryjvl/jekyll-build-action@v1
       
-    - run: echo "{}" >> ./_site/firebase.json
+    - run: |
+            "{}" > ./_site/firebase.json
     
-    - run: ls ./site
+    - run: ls ./_site
       
     - uses: FirebaseExtended/action-hosting-deploy@v0
       with:
