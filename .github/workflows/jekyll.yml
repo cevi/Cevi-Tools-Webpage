@@ -18,7 +18,7 @@ jobs:
       
     - run: sudo chown -R $USER:$USER .
     - run: |
-            echo "{ \"hosting\": { \"public\": \".\", \"cleanUrls\": false, \"trailingSlash\": false }}" > _site/firebase.json    
+            echo "{ \"hosting\": { \"public\": \".\", \"cleanUrls\": true, \"trailingSlash\": false }}" > _site/firebase.json    
 
     - uses: FirebaseExtended/action-hosting-deploy@v0
       with:
