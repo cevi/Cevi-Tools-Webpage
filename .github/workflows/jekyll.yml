@@ -16,15 +16,17 @@ jobs:
     - name: Build
       uses: jerryjvl/jekyll-build-action@v1
       
+    - run: ls _site
+
     - run: |
-            "{}" > ./_site/firebase.json
-    
-    - run: ls ./_site
-      
+            sudo echo "{}" > _site/firebase.json
+            
+    - run: ls _site
+
     - uses: FirebaseExtended/action-hosting-deploy@v0
       with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.CEVI_TOOLS_FIREBASE_PREVIEW_TOKEN}}'
           channelId: preprod
-          entryPoint: ./_site
+          entryPoint: _site
 
