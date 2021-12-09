@@ -17,9 +17,11 @@ jobs:
       uses: jerryjvl/jekyll-build-action@v1
       
     - run: ls _site
+    
+    - run: sudo chown -R $USER:$USER /home/github/actions-runner/_work/Cevi-Tools-Webpage/
 
     - run: |
-            sudo echo "{}" > _site/firebase.json
+            echo "{}" > _site/firebase.json
             
     - run: ls _site
 
