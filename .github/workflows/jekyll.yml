@@ -18,8 +18,7 @@ jobs:
       
     - run: ls _site
     
-    - run: sudo chown -R $USER:$USER /home/github/actions-runner/_work/Cevi-Tools-Webpage/
-
+    - run: sudo chown -R $USER:$USER .
     - run: |
             echo "{}" > _site/firebase.json
             
