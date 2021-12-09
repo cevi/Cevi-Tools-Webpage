@@ -30,4 +30,4 @@ jobs:
           firebaseServiceAccount: '${{ secrets.CEVI_TOOLS_FIREBASE_PREVIEW_TOKEN}}'
           channelId: preprod
           entryPoint: _site
-
+          projectId: cevi-tools-preview-deployment
