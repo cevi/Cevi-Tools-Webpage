@@ -18,12 +18,14 @@ jobs:
       
     - run: sudo chown -R $USER:$USER .
     - run: |
-            echo "{}" > _site/firebase.json    
+            echo "{ \"target\": \"dev\"}" > _site/firebase.json    
 
     - uses: FirebaseExtended/action-hosting-deploy@v0
       with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.CEVI_TOOLS_FIREBASE_PREVIEW_TOKEN}}'
-          channelId: preprod
+          channelId: dev
           entryPoint: _site
           projectId: cevi-tools-preview-deployment
+      env:
+          FIREBASE_CLI_PREVIEWS: hostingchannels
