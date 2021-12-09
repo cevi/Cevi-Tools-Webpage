@@ -20,4 +20,4 @@ jobs:
       with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.CEVI_TOOLS_FIREBASE_PREVIEW_TOKEN}}'
-          FIREBASE_CLI_PREVIEWS: hostingchannels
+          channelId: preprod
