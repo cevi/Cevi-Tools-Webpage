@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Tools
-permalink: /tools/
+title: Webtools
+permalink: /webtools/
+weight: 1
 ---
 
 # Online verfügbare Tools
