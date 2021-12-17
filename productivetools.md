@@ -34,3 +34,8 @@ Das Qualitool, eine grosse Hilfe für Gruppenleiter:innen und Kursleiter:innen i
 Weitere Informationen und einen Demo-Kurs findest du auf [https://quali.cevi.tools/](https://quali.cevi.tools/)
 
 ![Qualitool Banner](/assets/qualitool.png)
+
+## Gruppeneinteilung
+**Gruppen einteilen leicht gemacht**
+
+Im [Gruppeneinteiler](https://cevi.github.io/KuTo/gruppeneinteilung.html) kannst du ein aus der CeviDB exportiertes CSV importieren und die Teilnehmer nach unterschiedlichen Optionen automatisch in Gruppen einteilen lassen.
