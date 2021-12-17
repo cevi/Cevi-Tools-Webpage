@@ -1,9 +1,8 @@
 ---
 layout: home
-title: Home
 ---
 
-# cevi.tools
+
 **Digitale Tools für Cevi-Lager und Kurse**
 
 > Wir entwickeln innovative Webtools für Cevi / Pfadi / Jubla, um die Arbeit in der
