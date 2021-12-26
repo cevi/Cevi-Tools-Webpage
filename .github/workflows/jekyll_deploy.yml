@@ -5,7 +5,7 @@ on:
     branches: [ main, feature/build-with-gh-actions]
 
 jobs:
-  jekyll:
+  jekyll_deploy:
     name: Build and deploy Jekyll site
     runs-on: ubuntu-latest
 
