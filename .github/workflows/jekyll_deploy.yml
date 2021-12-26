@@ -1,0 +1,24 @@
+name: Jekyll Deploy Page
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  jekyll_deploy:
+    name: Build and deploy Jekyll site
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout 🛎️
+      uses: actions/checkout@v2
+
+    - name: Build 🏗️ with Jekyll 4
+      uses: jerryjvl/jekyll-build-action@v1
+      
+    - name: Deploy 🚀 to GitHub Pages Branch
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./_site
+        cname: cevi.tools
