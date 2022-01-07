@@ -23,6 +23,9 @@ layout: default
       {%- if author contains "github@" -%}
       <span><a class="u-url" href="https://github.com/{{ author | replace: 'github@', '' | split: ' ' | first }}">
           {{ author | replace: 'github@', '' | split: ' ' | shift | join: " "}}</a></span>
+      <svg class="svg-icon">
+        <use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use>
+      </svg>
       {% else %}
       <span>{{ author }}</span>
       {%-endif-%}
