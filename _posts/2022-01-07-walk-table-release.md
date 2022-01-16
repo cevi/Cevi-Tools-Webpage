@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "J+S-Marschzeittabellen automatisiert generieren - Release"
-date:   2022-01-07 14:30:00 +0100 # That's the release date of the blog entry
+date:   2022-01-16 10:30:00 +0100 # That's the release date of the blog entry
 categories: release
 authors:
  - github@wp99cp JPG
