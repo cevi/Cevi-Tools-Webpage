@@ -30,6 +30,7 @@ jobs:
       with:
         build_only: true
         pre_build_commands: apk --update add imagemagick 
+        target_path: _site
       
     - run: sudo chown -R $USER:$USER .
     - run: |
