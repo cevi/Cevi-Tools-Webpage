@@ -14,13 +14,22 @@ jobs:
     steps:
     - name: Checkout 🛎️
       uses: actions/checkout@v2
+      
+    # Use GitHub Actions' cache to shorten build times and decrease load on servers
+    - name: Use GitHub Action cache 💾
+      uses: actions/cache@v2
+      with:
+        path: vendor/bundle
+        key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile') }}
+        restore-keys: |
+          ${{ runner.os }}-gems-
 
-    - name: Install Dependencies
-      run: |
-            sudo apt-get install libmagickwand-dev
-
+    # Build the jekyll page
     - name: Build 🏗️
-      uses: jerryjvl/jekyll-build-action@v1
+      uses: helaili/jekyll-action@v2
+      with:
+        build_only: true
+        pre_build_commands: apk --update add imagemagick 
       
     - run: sudo chown -R $USER:$USER .
     - run: |
