@@ -16,12 +16,12 @@ jobs:
       uses: actions/checkout@v2
       
     # Use GitHub Actions' cache to shorten build times and decrease load on servers
-    - name: Use GitHub Action cache 💾
-      uses: actions/cache@v2
-      with:
-        path: |
-          - vendor/bundle
-          - imgs
+    # - name: Use GitHub Action cache 💾
+    #  uses: actions/cache@v2
+    #  with:
+    #    path: |
+    #      - vendor/bundle
+    #      - imgs
         
     # Build the jekyll page
     - name: Build 🏗️
