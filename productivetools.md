@@ -33,6 +33,8 @@ Features
 - J+S-Marschzeittabelle (Excel) automatisiert generieren
 - Karten mit gewähltem Massstab als PDF generieren
 
+Probiers aus unter [map.cevi.tools](https://map.cevi.tools) 
+
 Das Projekt ist unter [cevi/automatic_walk-time_tables](https://github.com/cevi/automatic_walk-time_tables) zu finden.
 
 ## Cevi Qualitool
