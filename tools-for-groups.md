@@ -5,7 +5,7 @@ permalink: /tools-for-groups/
 weight: 3
 ---
 
-# Online verfügbare Tools
+# Tools, die du in deiner Abteilung selber aufsetzen kannst
 
 ## Chästlizettel mit Mobile App, Anbindung an Nextcloud und automatischen Mails
 **Informationen für deine Programme leicht gemacht**
