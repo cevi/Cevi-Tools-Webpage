@@ -15,5 +15,26 @@ $ bundle exec jekyll serve
 
 ## Deployment
 
-The page get's deployed automaticaly to GitHub Pages once you merge your changes into the `main` branch of this repo.
-For every PR we will create a preview, such that you can check your changes before releasing them.
+Our [webpage](https://cevi.tools/) gets served directly from the gh-pages branch, which contains the plain HTML and CSS source. Those files are generated automatically upon committing to the main branch by a GitHub-Action script. Therefore, you do not want to commit directly to the gh-pages branch.
+ 
+For every pull request (to the main branch), GitHub Actions will create a preview such that you can check your changes before releasing them by merging your changes into main.
+
+```
+                       ┌───────────────┐              ┌───────────────┐
+                       │               │   merge      │               │
+    your code ───────► │  pull request │ ───────────► │  main branch  │
+     changes           │               │              │               │
+                       └───────┬───────┘              └───────┬───────┘
+                               │                              │  
+                               │                              │  generates sources
+                               │                              │  automatically using
+                               ▼                              │  a GitHub-Action script
+                                                              │
+                      generates a preview                     ▼
+                        using Firebase                ┌───────────────┐            ┌──────────────┐
+                                                      │               │            │              │
+                                                      │    gh pages   │  codebase  │    webpage   │
+                                                      │     branch    │    for     │  cevi.tools  │
+                                                      │               │ ◄────────► │              │
+                                                      └───────────────┘            └──────────────┘
+```
