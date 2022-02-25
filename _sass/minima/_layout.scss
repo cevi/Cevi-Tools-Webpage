@@ -137,6 +137,10 @@
 .footer-col-1 {
   width: -webkit-calc(35% - (#{$spacing-unit} / 2));
   width:         calc(35% - (#{$spacing-unit} / 2));
+
+  .p-name{
+    margin-top: 10px;
+  }
 }
 
 .footer-col-2 {
