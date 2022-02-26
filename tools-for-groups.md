@@ -11,7 +11,7 @@ weight: 3
 **Informationen für deine Programme leicht gemacht**
 
 In den [Repos vom Cevi Dürnten](https://github.com/ceviduernten) kannst du diverse Bestandteile finden.
-Herzstück ist eine Mobile App, welche dir den Chästlizettel für's nächste Programm anzeigt. Darin zu finden sind deine nächsten Anlässe, welches aus einem Nextcloud Kalender heraussynchronisiert werden. Über ein einfaches Webinterface kann jeder Leiter der Abteilung die Informationen für's nächste Programm erstellen und direkt per Mail über eine Anbindung der cevi.db an die Eltern zustellen lassen. 
+Herzstück ist eine Mobile App, welche dir den Chästlizettel für's nächste Programm anzeigt. Darin zu finden sind deine nächsten Anlässe, die aus einem Nextcloud Kalender heraussynchronisiert werden. Über ein einfaches Webinterface kann jeder Leiter der Abteilung die Informationen für's nächste Programm erstellen und direkt per Mail über eine Anbindung der cevi.db an die Eltern zustellen lassen. 
 
 Dazu gehören folgende Features
 
@@ -24,7 +24,7 @@ Dazu gehören folgende Features
 - und vieles mehr.
 
 
-Es ist nicht ein Tool, welches du direkt brauchen kannst. Gegebenenfalls kannst du auch noch eigene Anpassungen vornehmen kannst um deiner Abteilung noch besser gerecht zu werden.
+Es ist nicht ein Tool, welches du direkt brauchen kannst. Gegebenenfalls kannst du auch noch eigene Anpassungen vornehmen kannst, um deiner Abteilung noch besser gerecht zu werden.
 Das ganze Konstrukt kann grundsätzlich von jeder Abteilung wiederverwendet werden und so auch in ihrer Abteilung eingesetzt werden. 
 
 - [Link zum App Store](https://apps.apple.com/ch/app/cevi-dürnten/id1493348905)
