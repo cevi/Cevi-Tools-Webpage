@@ -10,8 +10,8 @@ weight: 3
 ## Chästlizettel mit Mobile App, Anbindung an Nextcloud und automatischen Mails
 **Informationen für deine Programme leicht gemacht**
 
-Im [Repo vom Cevi Dürnten](https://github.com/ceviduernten) kannst du diverse Bestandteile finden.
-Herzstück ist eine Mobile App, welche dir den Chästlizettel für's nächste Programm anzeigt. Darin zufinden sind deine nächsten Anlässe, welche aus einem Nextcloud Kalender heraussynchronisiert werden. Über ein einfaches Webinterface kann jeder Leiter der Abteilung die Informationen für das nächste Programm erstellen und direkt per Mail über eine Anbindung der cevi.db an die Eltern zustellen lassen. 
+In den [Repos vom Cevi Dürnten](https://github.com/ceviduernten) kannst du diverse Bestandteile finden.
+Herzstück ist eine Mobile App, welche dir den Chästlizettel für's nächste Programm anzeigt. Darin zu finden sind deine nächsten Anlässe, welches aus einem Nextcloud Kalender heraussynchronisiert werden. Über ein einfaches Webinterface kann jeder Leiter der Abteilung die Informationen für's nächste Programm erstellen und direkt per Mail über eine Anbindung der cevi.db an die Eltern zustellen lassen. 
 
 Dazu gehören folgende Features
 
@@ -24,10 +24,10 @@ Dazu gehören folgende Features
 - und vieles mehr.
 
 
-Es ist nicht ein Tool, welches du direkt brauchen kannst sondern für deine Bedürfnisse installieren kannst du ggf. auch noch eigene Anpassungen vornehmen kannst um deiner Abteilung noch besser gerecht zu werden.
+Es ist nicht ein Tool, welches du direkt brauchen kannst. Gegebenenfalls kannst du auch noch eigene Anpassungen vornehmen kannst um deiner Abteilung noch besser gerecht zu werden.
 Das ganze Konstrukt kann grundsätzlich von jeder Abteilung wiederverwendet werden und so auch in ihrer Abteilung eingesetzt werden. 
 
-[Link zum App Store](https://apps.apple.com/ch/app/cevi-dürnten/id1493348905)
-[Link zum Webinterface](https://backend.ceviduernten.ch)
+- [Link zum App Store](https://apps.apple.com/ch/app/cevi-dürnten/id1493348905)
+- [Link zum Webinterface](https://backend.ceviduernten.ch)
 
-Informationen zur Installation sowie allfällige Kontaktangaben für weitere Informationen findest zu im Git Repo
+Informationen zur Installation sowie allfällige Kontaktangaben für weitere Informationen findest du auf [Github](https://github.com/ceviduernten).

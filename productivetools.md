@@ -52,11 +52,3 @@ Weitere Informationen und einen Demo-Kurs findest du auf [https://quali.cevi.too
 **Gruppen einteilen leicht gemacht**
 
 Im [Gruppeneinteiler](https://cevi.github.io/KuTo/gruppeneinteilung.html) kannst du ein aus der CeviDB exportiertes CSV importieren und die Teilnehmer nach unterschiedlichen Optionen automatisch in Gruppen einteilen lassen.
-
-## Chästlizettel mit Mobile App, Anbindung an Nextcloud und automatischen Mails
-**Informationen für deine Programme leicht gemacht**
-
-Im [Repo vom Cevi Dürnten](https://github.com/ceviduernten) kannst du diverse Bestandteile.
-Herzstück ist eine Mobile App, welche dir den Chästlizettel für's nächste Programm anzeigt. Darin zufinden sind deine nächsten Anlässe, welches aus einem Nextcloud Kalender heraussynchronisiert werden. Über ein einfaches Webinterface kann jeder Leiter der Abteilung die Informationen für's nächste Programm erstellet und direkt per Mail über eine Anbindung der cevi.db an die Eltern zustellen lassen. 
-Es ist nicht ein Tool, welches du direkt brauchen kannst sondern für deine Bedürfnisse installieren kannst du ggf. auch noch eigene Anpassungen vornehmen kannst um deiner Abteilung noch besser gerecht zu werden.
-Eindrücke dazu kannst du im App Store unter "Cevi Dürnten" finden. Der Code darf von jeder Abteilung weiterverwendet und angepasst werden.
