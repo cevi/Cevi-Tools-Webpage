@@ -13,6 +13,6 @@ authors:
 
 <br>
 
-Die Version 2.2.0 des [J+S-Marschzeittabellen-Generators](http://map.cevi.tools) unterstützt nun auch KML Dateien, somit
+Die Version 2.2.0 des [J+S-Marschzeittabellen-Generators](https://map.cevi.tools) unterstützt nun auch KML Dateien, somit
 können Wanderrouten noch einfacher geplant werden! KML-Dateien können beispielsweise direkt
-vom [Kartenviewer von Swisstopo](map.geo.admin.ch) heruntergeladen werden.
+vom [Kartenviewer von Swisstopo](https://map.geo.admin.ch) heruntergeladen werden.
