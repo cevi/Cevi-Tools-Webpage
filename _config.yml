@@ -30,6 +30,16 @@ github_username:  Cevi
 # Build settings
 theme: minima
 
+imageoptim:
+  svgo: false   # Disabling svgo because it throws some error
+  jpegrecompress:
+    allow_lossy: true
+    quality: 3
+  jpegoptim:
+    allow_lossy: true
+    max_quality: 75
+
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

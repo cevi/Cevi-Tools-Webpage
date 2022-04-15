@@ -6,3 +6,6 @@ vendor
 
 # Excluding directory automatically created by JetBrains IDEs
 .idea
+
+# used to cache images of differnt sizes
+imgs
