@@ -12,6 +12,10 @@ Bestimmt hast du diese Logos, wahlweise mit einem Kurztext (Claim), schon irgend
 
 ![Cevi Logo Generator Output](/assets/logogenerator.png)
 
+## Cevi QR-Code Generator
+QR-Codes sind vielseitig einsetzbar. In der Werbung, Programmen und Kursen kann so einfach der Zugriff auf Web-Inhalte erfolgen. Der [Cevi QR-Code Generator](https://qr.cevi.tools) erstellt QR-Codes in Cevi-Farben und Logo.
+
+![Cevi QR Code](/assets/qr.png)
 
 ## eMeal Menüplanung
 *eMeal - Menüplanung* ermöglicht es die Essensplanung für ein Lager oder Anlass zu automatisieren. Eine Bibliothek an Rezepten erleichtert die Vorbereitung und erspart wiederholtes abtippen. Importiere Rezepte direkt von verschiedenen Webseiten mit nur einem Klick.
@@ -33,9 +37,14 @@ Features
 - J+S-Marschzeittabelle (Excel) automatisiert generieren
 - Karten mit gewähltem Massstab als PDF generieren
 
-Probiers aus unter [map.cevi.tools](https://map.cevi.tools) 
+Probiers aus unter [map.cevi.tools](https://map.cevi.tools)
 
 Das Projekt ist unter [cevi/automatic_walk-time_tables](https://github.com/cevi/automatic_walk-time_tables) zu finden.
+
+## meet.cevi.tools - Termine finden
+Zum einfachen finden von gemeinsamen Terminen bieten wir von Cevi.Tools eine Alternative zu anderen Online-Diensten. Selbstverständlich OpenSource, ohne Registrierung und Werbung. Jetzt loslegen auf [meet.cevi.tools](https://meet.cevi.tools)
+
+![meet.cevi.tools](/assets/meet.png)
 
 ## Cevi Qualitool
 **Online Qulifikationstool für J+S-Kurse**
