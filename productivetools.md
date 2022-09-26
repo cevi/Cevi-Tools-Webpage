@@ -41,7 +41,7 @@ Probiers aus unter [map.cevi.tools](https://map.cevi.tools)
 
 Das Projekt ist unter [cevi/automatic_walk-time_tables](https://github.com/cevi/automatic_walk-time_tables) zu finden.
 
-## meet.cevi.tools - Termine finden
+## termin.cevi.tools - Termine finden
 Zum einfachen Finden von gemeinsamen Terminen bieten wir von Cevi.Tools eine Alternative zu anderen Online-Diensten. Selbstverständlich OpenSource, ohne Registrierung und Werbung. Jetzt loslegen auf [termin.cevi.tools](https://termin.cevi.tools)
 
 ![termin.cevi.tools](/assets/meet.png)
