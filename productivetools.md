@@ -25,11 +25,11 @@ eMeal ermöglicht ein simultanes Bearbeiten aller Rezepte, Lager und Anlässen v
 
 Auf [https://emeal.zh11.ch/](https://emeal.zh11.ch/) findest du weitere Informationen und kannst gleich loslegen!
 
-![eMeal Banner](https://user-images.githubusercontent.com/34008738/105835410-10843900-5fcc-11eb-9a23-2b9140c8c373.png)
+![eMeal Banner](/assets/eMeal-Menuplanung.png)
 
 
 ## J+S-Marschzeittabellen automatisiert generieren
-![J+S-Marschzeittabellen Banner](https://github.com/cevi/automatic_walk-time_tables/raw/master/imgs/Claim.png)
+![J+S-Marschzeittabellen Banner](/assets/Walk-Time-Table.png)
 Ziel dieses Projektes ist es, den Prozess rund um das Erstellen einer J+S-Marschzeittabelle für eine Wanderung oder Velo-Tour zu automatisieren und zu beschleunigen.
 
 Features
