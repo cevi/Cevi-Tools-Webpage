@@ -7,7 +7,14 @@ tools developed by the Cevi community.
 
 1) Clone the repo to a local folder
 2) Install jekyll following the instructions on the [official webpage](https://jekyllrb.com/docs/installation/).
-3) Serve the webpage locally by running the following command:
+3) Install your bundles once by running the following commands:
+
+```bash
+$ bundle config set --local path 'vendor/bundle'
+$ bundle install
+```
+
+4) Serve the webpage locally by running the following command:
 
 ```bash 
 $ bundle exec jekyll serve
