@@ -29,7 +29,7 @@ Auf [https://emeal.zh11.ch/](https://emeal.zh11.ch/) findest du weitere Informat
 
 
 ## J+S-Marschzeittabellen automatisiert generieren
-![J+S-Marschzeittabellen Banner](https://github.com/cevi/automatic_walk-time_tables/raw/master/imgs/Claim.png)
+![J+S-Marschzeittabellen Banner](https://github.com/cevi/automatic_walk-time_tables/raw/master/docs/imgs/Claim.png)
 Ziel dieses Projektes ist es, den Prozess rund um das Erstellen einer J+S-Marschzeittabelle für eine Wanderung oder Velo-Tour zu automatisieren und zu beschleunigen.
 
 Features
