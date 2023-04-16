@@ -12,14 +12,12 @@ layout: default
       </time> von
       {% for author in page.authors %}
       
-      {% if len(page.authors) > 1 %}
-      {% if forloop.last %}
+      {% if forloop.length > 1 and forloop.last %}
       <span>und</span>
       {% elsif forloop.first %}
       <span></span>
       {% else %}
       <span>,</span>
-      {% endif %}
       {% endif %}
 
       {%- if author contains "github@" -%}
