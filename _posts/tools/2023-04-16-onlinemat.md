@@ -10,6 +10,7 @@ authors:
 ---
 
 ![Onlinemat Banner](/assets/onlinemat.png)
+
 Ziel dieses Projektes ist es, das Materiallager der einzelnen Abteilungen zu digitalisieren. Jede Leitende Person soll wissen was sich im Mat befindet und wann es verfügbar ist.
 
 Features
