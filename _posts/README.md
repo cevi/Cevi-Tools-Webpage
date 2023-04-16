@@ -18,3 +18,23 @@ Your blog content as normal Markdown text.
 
 ```
 
+For projects (tools):
+
+```markdown
+---
+layout: tool
+title:  "Tool Title"
+date:   2021-11-25 12:55:00 +0100 # That's the release date of the blog entry
+categories: [tool, tool-ready-to-use]
+image: assets/tools-frontpage/cevi_logo_generator.jpg
+deployment: https://logo.cevi.ch
+excerpt: This is the excerpt that will be displayed on the tools overview page.
+authors:
+ - github@author1_github_nick Author 1 Name
+ - Author 2
+---
+
+Your blog content as normal Markdown text.
+
+```
+

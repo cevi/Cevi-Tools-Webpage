@@ -11,7 +11,7 @@ layout: default
         {{ page.date | date: date_format }}
       </time> von
       {% for author in page.authors %}
-
+      
       {% if forloop.length > 1 and forloop.last %}
       <span>und</span>
       {% elsif forloop.first %}
