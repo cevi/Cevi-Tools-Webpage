@@ -28,7 +28,8 @@
 }
 
 #tools .text-holder {
-    height: 250px;
+    margin-top: 10px;
+    height: 150px;
 }
 
 #tools img {
