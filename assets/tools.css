@@ -76,6 +76,10 @@
     background-color: #4caf50
 }
 
+#tools .badge-diy {
+    background-color: #f44336
+}
+
 #tools .badge {
     color: #fff;
     padding: 5px 10px;

@@ -45,6 +45,9 @@ Die Entwicklung unserer Tools findest du auf [Github](https://github.com/cevi). 
         {% if post.categories contains 'tool-in-development' %}
           <span class="badge badge-in-development">In Entwicklung</span>
         {% endif %}
+        {% if post.categories contains 'tool-diy' %}
+          <span class="badge badge-diy">Selber erstellen</span>
+        {% endif %}
         <p class="card-text">{{ post.excerpt }}</p>
       </div>
     </div>
