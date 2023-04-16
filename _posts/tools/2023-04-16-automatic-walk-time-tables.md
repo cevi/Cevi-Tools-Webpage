@@ -4,7 +4,7 @@ title:  "Automatische Marschzeittabellen"
 date:   2022-01-16 10:30:00 +0100 # That's the release date of the blog entry
 categories: [tool, tool-ready-to-use]
 excerpt: Lasse Marschzeittabellen generieren.
-image: assets/tools-frontpage/map.png
+image: assets/tools-frontpage/map.jpg
 authors:
  - github@wp99cp JPG, github@maede97 Scirocco
 ---
