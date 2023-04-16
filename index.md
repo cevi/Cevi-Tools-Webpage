@@ -33,10 +33,11 @@ Die Entwicklung unserer Tools findest du auf [Github](https://github.com/cevi). 
 {% for post in site.posts %}
   {% if post.categories contains 'tool' %}
 <div class="column">
-<a href="{{ post.url }}">
   <div class="card">
     <div class="card-body">
+      <a href="{{ post.url }}">
       <div class="img-holder"><img src="{{ post.image }}" alt="{{ post.title }}"></div>
+      </a>
       <div class="text-holder">
         {% if post.categories contains 'tool-ready-to-use' %}
           <span class="badge badge-ready-to-use">Bereit zum Einsatz</span>
@@ -51,9 +52,10 @@ Die Entwicklung unserer Tools findest du auf [Github](https://github.com/cevi). 
         <h3 class="card-title">{{ post.title }}</h3>
       
         <p class="card-text">{{ post.excerpt }}</p>
+        <a class="btn btn-primary" href="{{ post.url }}">Mehr erfahren</a>
 
         {% if post.deplyoment %}
-          <button class="deployment" onclick="document.window.href='{{ post.deplyoment }}'">
+          <a class="deployment" href="{{ post.deplyoment }}">
             <img class="svg-icon" src="{{ '/assets/link-solid.svg' | relative_url }}"> {{ post.deplyoment }}
           </button>
         {% endif %}
