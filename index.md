@@ -37,8 +37,10 @@ Die Entwicklung unserer Tools findest du auf [Github](https://github.com/cevi). 
   <div class="card">
     <div class="card-body">
       <div class="img-holder"><img src="{{ post.image }}" alt="{{ post.title }}"></div>
-      <h3 class="card-title">{{ post.title }}</h3>
-      <p class="card-text">{{ post.excerpt }}</p>
+      <div class="text-holder">
+        <h3 class="card-title">{{ post.title }}</h3>
+        <p class="card-text">{{ post.excerpt }}</p>
+      </div>
     </div>
   </div>
 </a>
