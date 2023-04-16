@@ -42,6 +42,7 @@ Die Entwicklung unserer Tools findest du auf [Github](https://github.com/cevi). 
     </div>
   </div>
 </div>
-</div>
   {% endif %}
 {% endfor %}
+</div>
+</div>
