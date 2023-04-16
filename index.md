@@ -13,7 +13,7 @@ Auf dieser Seite möchten wir dir eine Übersicht über bereits produktiv einset
 
 Die Entwicklung unserer Tools findest du auf [Github](https://github.com/cevi). Gerne darfst du dich an der Entwicklung eines bestehenden Tools beteiligen oder dein eigenes Projekt starten. Kontaktiere uns dazu via Github.
 
-## News:
+## News
 <ul>
   {% for post in site.posts %}
 
@@ -26,7 +26,7 @@ Die Entwicklung unserer Tools findest du auf [Github](https://github.com/cevi). 
   {% endfor %}
 </ul>
 
-## Tools:
+## Tools
 <!-- create a flexbox grid (3 columns) with all posts from the category "tools", and create bootstrap-card like cards in pure html. -->
 <div id="tools">
 <div class="row">
