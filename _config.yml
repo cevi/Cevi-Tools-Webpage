@@ -28,7 +28,7 @@ url: "https://cevi.tools" # the base hostname & protocol for your site
 github_username:  Cevi
 
 # Build settings
-theme: minima
+#theme: minima
 
 # Exclude from processing.
 # The following items will not be processed, by default.
