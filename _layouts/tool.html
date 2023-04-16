@@ -1,0 +1,46 @@
+---
+layout: default
+---
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {%- assign date_format = site.minima.date_format | default: "%d.%m.%Y" -%}
+        {{ page.date | date: date_format }}
+      </time> von
+      {% for author in page.authors %}
+
+      {% if forloop.last %}
+      <span>und</span>
+      {% elsif forloop.first %}
+      <span></span>
+      {% else %}
+      <span>,</span>
+      {% endif %}
+
+      {%- if author contains "github@" -%}
+      <span><a class="u-url" href="https://github.com/{{ author | replace: 'github@', '' | split: ' ' | first }}">
+          {{ author | replace: 'github@', '' | split: ' ' | shift | join: " "}}</a></span>
+      <svg class="svg-icon">
+        <use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use>
+      </svg>
+      {% else %}
+      <span>{{ author }}</span>
+      {%-endif-%}
+
+      {%- endfor -%}
+    </p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+  {%- if site.disqus.shortname -%}
+  {%- include disqus_comments.html -%}
+  {%- endif -%}
+
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+</article>

@@ -16,8 +16,34 @@ Die Entwicklung unserer Tools findest du auf [Github](https://github.com/cevi). 
 ## News:
 <ul>
   {% for post in site.posts %}
-    <li>
-      {{ post.date | date: "%d.%m.%Y"}} <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
+
+    {% if not post.categories contains 'tool' %}
+      <li>
+        {{ post.date | date: "%d.%m.%Y"}} <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+
+    {% endif %}
   {% endfor %}
 </ul>
+
+## Tools:
+{% for post in site.posts %}
+
+  {% if post.categories contains 'tool' %}
+    <!-- create a bootstrap grid of album -->
+    <div class="col-md-4">
+      <div class="card mb-4 box-shadow">
+        <img class="card-img-top" src="{{ post.image }}" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">{{ post.title }}</h5>
+          <p class="card-text">{{ post.excerpt }}</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <a href="{{ post.url }}" class="btn btn-sm btn-outline-secondary">Mehr</a>
+            </div>
+            <small class="text-muted">{{ post.date | date: "%d.%m.%Y" }}</small>
+          </div>
+        </div>
+      </div>
+  {% endif %}
+{% endfor %}
