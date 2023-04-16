@@ -33,14 +33,15 @@ Die Entwicklung unserer Tools findest du auf [Github](https://github.com/cevi). 
 {% for post in site.posts %}
   {% if post.categories contains 'tool' %}
 <div class="column">
+<a href="{{ post.url }}">
   <div class="card">
     <div class="card-body">
       <div class="img-holder"><img src="{{ post.image }}" alt="{{ post.title }}"></div>
       <h3 class="card-title">{{ post.title }}</h3>
       <p class="card-text">{{ post.excerpt }}</p>
-      <a href="{{ post.url }}" class="btn btn-primary">Mehr erfahren</a>
     </div>
   </div>
+</a>
 </div>
   {% endif %}
 {% endfor %}
