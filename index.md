@@ -49,6 +49,9 @@ Die Entwicklung unserer Tools findest du auf [Github](https://github.com/cevi). 
           <span class="badge badge-diy">Selber erstellen</span>
         {% endif %}
         <p class="card-text">{{ post.excerpt }}</p>
+        {% if post.url %}
+          <a href="{{ post.url }}" class="btn btn-primary">{{ post.url }}</a>
+        {% endif %}
       </div>
     </div>
   </div>

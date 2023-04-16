@@ -5,6 +5,7 @@ date:   2022-01-16 10:30:00 +0100 # That's the release date of the blog entry
 categories: [tool, tool-ready-to-use]
 excerpt: Erstelle Cevi Claims.
 image: assets/tools-frontpage/cevi_logo_generator.jpg
+url: https://logo.cevi.ch
 authors:
  - github@btemperli Zottel
 ---
