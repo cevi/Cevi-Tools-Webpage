@@ -10,4 +10,8 @@ authors:
  - CeviTools
 ---
 
-Erstelle verkürzte URLs aus deinen langen Links. Einfach zu gebrauchen. 
+Erstelle verkürzte URLs aus deinen langen Links.
+
+Um den URL Shortener zu benützen benötigst du dein CeviDB Login.
+
+[go.cevi.tools](https://go.cevi.tools)
