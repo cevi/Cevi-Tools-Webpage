@@ -38,7 +38,6 @@ Die Entwicklung unserer Tools findest du auf [Github](https://github.com/cevi). 
     <div class="card-body">
       <div class="img-holder"><img src="{{ post.image }}" alt="{{ post.title }}"></div>
       <div class="text-holder">
-        <h3 class="card-title">{{ post.title }}</h3>
         {% if post.categories contains 'tool-ready-to-use' %}
           <span class="badge badge-ready-to-use">Bereit zum Einsatz</span>
         {% endif %}
@@ -48,9 +47,13 @@ Die Entwicklung unserer Tools findest du auf [Github](https://github.com/cevi). 
         {% if post.categories contains 'tool-diy' %}
           <span class="badge badge-diy">Selber erstellen</span>
         {% endif %}
+
+        <h3 class="card-title">{{ post.title }}</h3>
+      
         <p class="card-text">{{ post.excerpt }}</p>
-        {% if post.url %}
-          <a href="{{ post.url }}" class="btn btn-primary">{{ post.url }}</a>
+
+        {% if post.deplyoment %}
+          <a href="{{ post.deplyoment }}" class="btn btn-primary">{{ post.deplyoment }}</a>
         {% endif %}
       </div>
     </div>
