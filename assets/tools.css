@@ -96,3 +96,10 @@
     display: inline-block;
     margin-bottom: 5px;
 }
+
+
+#tools .svg-icon {
+    width: 100%;
+    height: 100%;
+    fill: #000;
+}
