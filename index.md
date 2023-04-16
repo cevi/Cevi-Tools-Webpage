@@ -54,7 +54,7 @@ Die Entwicklung unserer Tools findest du auf [Github](https://github.com/cevi). 
 
         {% if post.deplyoment %}
           <a class="deployment" href="{{ post.deplyoment }}">
-            <img class="svg-icon" src="{{ '/assets/link-solid.svg' | relative_url }}"></img> {{ post.deplyoment }}
+            <img class="svg-icon" src="{{ '/assets/link-solid.svg' | relative_url }}"> {{ post.deplyoment }}
           </a>
         {% endif %}
       </div>
