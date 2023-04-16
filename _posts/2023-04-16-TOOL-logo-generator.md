@@ -3,7 +3,7 @@ layout: tool
 title:  "Cevi Logo Generator"
 date:   2022-01-16 10:30:00 +0100 # That's the release date of the blog entry
 categories: tool
-excerpt: Erstelle Cevi CLaims.
+excerpt: Erstelle Cevi Claims.
 image: assets/logogenerator.png
 authors:
  - github@btemperli Zottel
