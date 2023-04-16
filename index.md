@@ -38,7 +38,7 @@ Die Entwicklung unserer Tools findest du auf [Github](https://github.com/cevi). 
     <div class="card-body">
       <h5 class="card-title">{{ post.title }}</h5>
       <p class="card-text">{{ post.excerpt }}</p>
-      <a href="{{ post.url }}" class="btn btn-primary">Mehr erfahren</a>
+      <a href="{{ post.url }}" class="btn btn-light">Mehr erfahren</a>
     </div>
   </div>
 </div>
