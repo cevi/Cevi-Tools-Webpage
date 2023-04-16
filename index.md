@@ -52,7 +52,7 @@ Die Entwicklung unserer Tools findest du auf [Github](https://github.com/cevi). 
         <h3 class="card-title">{{ post.title }}</h3>
       
         <p class="card-text">{{ post.excerpt }}</p>
-        <a class="btn btn-primary" href="{{ post.url }}">Mehr erfahren</a>
+        <a class="deployment" href="{{ post.url }}">Mehr erfahren</a>
 
         {% if post.deplyoment %}
           <a class="deployment" href="{{ post.deplyoment }}">
