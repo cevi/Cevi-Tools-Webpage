@@ -3,7 +3,13 @@
 }
 
 #tools a {
-    all: unset;
+    text-decoration: none;
+    color: #000;
+}
+
+#tools a:hover {
+    color: #000;
+    text-decoration: none;
 }
 
 #tools h3 {
