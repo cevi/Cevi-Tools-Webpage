@@ -1,7 +1,7 @@
 ---
 layout: tool
 title:  "Online-Material"
-date:   2022-01-16 10:30:00 +0100 # That's the release date of the blog entry
+date:   2022-01-16 09:30:00 +0100 # That's the release date of the blog entry
 categories: [tool, tool-in-development]
 excerpt: Verwalte dein Materiallager online.
 image: assets/tools-frontpage/onlinemat.jpg
