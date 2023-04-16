@@ -28,9 +28,7 @@ Die Entwicklung unserer Tools findest du auf [Github](https://github.com/cevi). 
 
 ## Tools:
 {% for post in site.posts %}
-
   {% if post.categories contains 'tool' %}
-    <!-- create a bootstrap grid of album -->
     <div class="col-md-4">
       <div class="card mb-4 box-shadow">
         <img class="card-img-top" src="{{ post.image }}" alt="Card image cap">
@@ -45,5 +43,6 @@ Die Entwicklung unserer Tools findest du auf [Github](https://github.com/cevi). 
           </div>
         </div>
       </div>
+    </div>
   {% endif %}
 {% endfor %}
