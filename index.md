@@ -17,7 +17,7 @@ Die Entwicklung unserer Tools findest du auf [Github](https://github.com/cevi). 
 <ul>
   {% for post in site.posts %}
 
-    {% if not post.categories contains 'tool' %}
+    {% if post.categories contains 'release' %}
       <li>
         {{ post.date | date: "%d.%m.%Y"}} <a href="{{ post.url }}">{{ post.title }}</a>
       </li>
