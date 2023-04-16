@@ -39,6 +39,12 @@ Die Entwicklung unserer Tools findest du auf [Github](https://github.com/cevi). 
       <div class="img-holder"><img src="{{ post.image }}" alt="{{ post.title }}"></div>
       <div class="text-holder">
         <h3 class="card-title">{{ post.title }}</h3>
+        {% if post.categories contains 'tool-ready-to-use' %}
+          <span class="badge badge-ready-to-use">Bereit zum Einsatz</span>
+        {% endif %}
+        {% if post.categories contains 'tool-in-development' %}
+          <span class="badge badge-in-development">In Entwicklung</span>
+        {% endif %}
         <p class="card-text">{{ post.excerpt }}</p>
       </div>
     </div>

@@ -2,9 +2,9 @@
 layout: tool
 title:  "QR Code Generator"
 date:   2023-04-16 10:30:00 +0100 # That's the release date of the blog entry
-categories: tool
+categories: tool, tool-ready-to-use
 excerpt: Erstelle Cevi QR-Codes
-image: assets/qr.png
+image: assets/tools-frontpage/qr.png
 authors:
  - github@wp77cp JPG
 ---

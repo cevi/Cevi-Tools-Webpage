@@ -67,3 +67,22 @@
         margin-bottom: 20px;
     }
 }
+
+#tools .badge-in-development {
+    background-color: #e0a614
+}
+
+#tools .badge-ready-to-use {
+    background-color: #4caf50
+}
+
+#tools .badge {
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 2px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 5px;
+}
