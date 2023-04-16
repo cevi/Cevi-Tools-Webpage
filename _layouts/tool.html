@@ -12,7 +12,7 @@ layout: default
       </time> von
       {% for author in page.authors %}
 
-      {% if forloop.last %}
+      {% if forloop.length > 1 and forloop.last %}
       <span>und</span>
       {% elsif forloop.first %}
       <span></span>
