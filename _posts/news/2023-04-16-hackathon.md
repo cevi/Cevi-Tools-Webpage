@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "CeviTools Hackathon"
-date:   2023-04-16 17:00:00 +0100
+date:   2023-04-16 15:00:00 +0100
 categories: release
 authors:
  - github@ThomasHaefliger Goofy
