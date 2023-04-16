@@ -36,7 +36,7 @@ Die Entwicklung unserer Tools findest du auf [Github](https://github.com/cevi). 
   <div class="card">
     <div class="card-body">
       <a href="{{ post.url }}">
-      <div class="img-holder"><img src="{{ post.image }}" alt="{{ post.title }}"></div>
+        <div class="img-holder"><img src="{{ post.image }}" alt="{{ post.title }}"></div>
       </a>
       <div class="text-holder">
         {% if post.categories contains 'tool-ready-to-use' %}
@@ -52,7 +52,7 @@ Die Entwicklung unserer Tools findest du auf [Github](https://github.com/cevi). 
         <h3 class="card-title">{{ post.title }}</h3>
       
         <p class="card-text">{{ post.excerpt }}</p>
-        <a class="deployment" href="{{ post.url }}">Mehr erfahren</a>
+        <a class="deployment" href="{{ post.url }}">Mehr erfahren...</a><br/>
 
         {% if post.deplyoment %}
           <a class="deployment" href="{{ post.deplyoment }}">
