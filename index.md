@@ -53,7 +53,7 @@ Die Entwicklung unserer Tools findest du auf [Github](https://github.com/cevi). 
         <p class="card-text">{{ post.excerpt }}</p>
 
         {% if post.deplyoment %}
-          <a class="deployment" href="{{ post.deplyoment }}">
+          <a class="deployment" href="{{ post.deplyoment }}" target="_blank">
             <img class="svg-icon" src="{{ '/assets/link-solid.svg' | relative_url }}"> {{ post.deplyoment }}
           </a>
         {% endif %}
