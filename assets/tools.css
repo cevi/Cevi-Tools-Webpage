@@ -13,6 +13,11 @@
     cursor: pointer;
 }
 
+#tools a.deployment:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 #tools h3 {
     font-weight: bold;
 }
@@ -30,7 +35,7 @@
 
 #tools .text-holder {
     margin-top: 10px;
-    height: 200px;
+    height: 250px;
 }
 
 #tools img {
