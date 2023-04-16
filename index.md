@@ -30,11 +30,8 @@ Die Entwicklung unserer Tools findest du auf [Github](https://github.com/cevi). 
 <!-- create a flexbox grid (3 columns) with all posts from the category "tools", and create bootstrap-card like cards in pure html. -->
 <div id="tools">
 <div class="row">
-{% assign result = site.categories.tool-ready-to-use %}
-{% assign result = result | concat: site.categories.tool-in-development %}
-{% assign result = result | concat: site.categories.tool-diy %}
-{% for category in result %}
-  {% for post in category %}
+{% for post in site.posts %}
+  {% if post.categories contains 'tool' %}
 <div class="column">
 <a href="{{ post.url }}">
   <div class="card">
@@ -65,7 +62,7 @@ Die Entwicklung unserer Tools findest du auf [Github](https://github.com/cevi). 
   </div>
 </a>
 </div>
-  {% endfor %}
+  {% endif %}
 {% endfor %}
 </div>
 </div>
