@@ -27,22 +27,21 @@ Die Entwicklung unserer Tools findest du auf [Github](https://github.com/cevi). 
 </ul>
 
 ## Tools:
+<!-- create a flexbox grid (3 columns) with all posts from the category "tools", and create bootstrap-card like cards in pure html. -->
+<div id="tools">
+<div class="row">
 {% for post in site.posts %}
   {% if post.categories contains 'tool' %}
-<div class="col-md-4">
-  <div class="card mb-4 box-shadow">
-    <img class="card-img-top" src="{{ post.image }}" alt="Card image cap">
+<div class="column">
+  <div class="card">
     <div class="card-body">
+      <div class="img-holder"><img src="{{ post.image }}" alt="{{ post.title }}"></div>
       <h5 class="card-title">{{ post.title }}</h5>
       <p class="card-text">{{ post.excerpt }}</p>
-      <div class="d-flex justify-content-between align-items-center">
-        <div class="btn-group">
-          <a href="{{ post.url }}" class="btn btn-sm btn-outline-secondary">Mehr</a>
-        </div>
-        <small class="text-muted">{{ post.date | date: "%d.%m.%Y" }}</small>
-      </div>
+      <a href="{{ post.url }}" class="btn btn-primary">Mehr erfahren</a>
     </div>
   </div>
+</div>
 </div>
   {% endif %}
 {% endfor %}

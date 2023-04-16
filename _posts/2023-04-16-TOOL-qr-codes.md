@@ -1,0 +1,15 @@
+---
+layout: tool
+title:  "QR Code Generator"
+date:   2023-04-16 10:30:00 +0100 # That's the release date of the blog entry
+categories: tool
+excerpt: Erstelle Cevi QR-Codes
+image: assets/qr.png
+authors:
+ - github@wp77cp JPG
+---
+
+## Cevi QR-Code Generator
+QR-Codes sind vielseitig einsetzbar. In der Werbung, Programmen und Kursen kann so einfach der Zugriff auf Web-Inhalte erfolgen. Der [Cevi QR-Code Generator](https://qr.cevi.tools) erstellt QR-Codes in Cevi-Farben und mit dem Cevi-Logo.
+
+![Cevi QR Code](/assets/qr.png)
