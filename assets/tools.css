@@ -1,0 +1,104 @@
+#tools * {
+    box-sizing: border-box;
+}
+
+#tools a {
+    text-decoration: none;
+    color: #000;
+}
+
+#tools a:hover {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#tools a.deployment:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#tools h3 {
+    font-weight: bold;
+}
+
+#tools .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+
+#tools .img-holder {
+    height: 230px;
+}
+
+#tools .text-holder {
+    margin-top: 10px;
+    height: 250px;
+}
+
+#tools img {
+    max-height: 200px;
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tools .row {
+    margin: 0 -5px;
+}
+
+#tools .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#tools .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    background-color: #f1f1f1;
+}
+
+#tools .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+@media screen and (max-width: 800px) {
+    #tools .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+#tools .badge-in-development {
+    background-color: #e0a614
+}
+
+#tools .badge-ready-to-use {
+    background-color: #4caf50
+}
+
+#tools .badge-diy {
+    background-color: #f44336
+}
+
+#tools .badge {
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 2px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+
+#tools .svg-icon {
+    fill: #000;
+    float: left;
+}
