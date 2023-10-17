@@ -11,6 +11,7 @@ authors:
 # Mehr Funktionen und ein neues Design
 
 Wir haben unseren QR-Code Generator aktualisiert und bieten nun noch mehr Funktionen und ein neues Design.
+Jetzt ausprobieren unter [qr.cevi.tools](https://qr.cevi.tools)!
 
 ## Telefonnummern
 
