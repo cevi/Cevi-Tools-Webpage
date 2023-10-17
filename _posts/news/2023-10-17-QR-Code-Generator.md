@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "Update QR Code Generator"
-date: 2023-10-17 15:35:00 +0100 # That's the release date of the blog entry
+date: 2023-10-17 15:35:00 +0200 # That's the release date of the blog entry
 categories: release
 authors:
   - github@wp99cp JPG
   - github@ursforrer MIR
 ---
 
-# Unser aktualisierter QR-Code Generator: Mehr Funktionen und ein neues Design
+# Mehr Funktionen und ein neues Design
 
 Wir haben unseren QR-Code Generator aktualisiert und bieten nun noch mehr Funktionen und ein neues Design.
 
