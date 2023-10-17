@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "CeviTools Hackathon"
+title:  "Dritter CeviTools Hackathon"
 date:   2023-10-01 14:45:00 +0200
 categories: release
 authors:
@@ -13,4 +13,4 @@ authors:
  - github@Leo1212 Orion
 ---
 
-Es ist Hackathon-Zeit! Heute fand der dritte Hackathon der CeviTools statt. Wir haben heute fleissig diskutiert - über das neue Datenschutzgesetz, das Online-Mat (siehe Tool in der Toolsammlung) sowie über einen neuen Blog-Post (folgt bald). Auch der URL-Shortener sollte bald bereit sein! Wir freuen uns natürlich auch, dass der QR-Code-Generator so fleissig benutzt wird!
+Es ist schon wieder Hackathon-Zeit! Heute fand der dritte Hackathon der CeviTools statt. Wir haben heute fleissig diskutiert - über das neue Datenschutzgesetz, das Online-Mat (siehe Tool in der Toolsammlung) sowie über einen neuen Blog-Post (folgt bald). Auch der URL-Shortener sollte bald bereit sein! Wir freuen uns natürlich auch, dass der QR-Code-Generator so fleissig benutzt wird!
