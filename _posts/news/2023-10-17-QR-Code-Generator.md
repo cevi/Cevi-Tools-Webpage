@@ -15,13 +15,10 @@ Jetzt ausprobieren unter [qr.cevi.tools](https://qr.cevi.tools)!
 
 ## Telefonnummern
 
-Ganz neu in unserer Palette ist die Möglichkeit, QR-Codes mit hinterlegten Telefonnummern zu generieren. Alles, was du
-tun musst, ist den Namen des WLANs und das Passwort einzugeben. Nach dem Scannen des QR-Codes werden die Zugangsdaten
-automatisch in den WLAN-Einstellungen deines Smartphones hinterlegt. Das bedeutet, dass du dich ohne lästige manuelle
-Eingabe mit dem WLAN verbinden kannst.
+Ganz neu ist die Möglichkeit, QR-Codes mit hinterlegten Telefonnummern zu generieren. Nach dem Scannen eines solchen
+QR-Codes auf deinem Smartphone erhältst du unmittelbar die Option, eine Anruf- oder Nachrichtenanfrage zu starten.
 
 ## WLAN-Zugriffsdaten
-
 
 Mit QR-Codes für WLAN-Zugriffsdaten können Gästen oder Lager-Teilnehmer schnell und einfach den Zugang zum WLAN
 erhalten. Hierzu musst du den Namen und das WLAN-Passwort eingeben. Nach dem Scannen des QR-Codes werden die
