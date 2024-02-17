@@ -11,6 +11,8 @@ You can preview your changes locally using docker. Clone the Repo, install docke
 docker compose watch
 ```
 
+The preview page can be accessed on http://localhost:4000.
+
 ## Local Development (with local ruby installation)
 
 1) Clone the repo to a local folder
