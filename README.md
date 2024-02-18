@@ -3,7 +3,17 @@
 This repo contains the content of the [cevi.tools](https://cevi.tools/) webpage. Cevi Tools is a collection of useful
 tools developed by the Cevi community.
 
-## Local Development
+## Local Development (using Docker)
+
+You can preview your changes locally using docker. Clone the Repo, install docker and run:
+
+```bash
+docker compose watch
+```
+
+The preview page can be accessed on http://localhost:4000.
+
+## Local Development (with local ruby installation)
 
 1) Clone the repo to a local folder
 2) Install jekyll following the instructions on the [official webpage](https://jekyllrb.com/docs/installation/).
