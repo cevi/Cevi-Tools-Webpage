@@ -4,7 +4,7 @@ title:  "Quali-Tool"
 date:   2022-01-16 10:30:00 +0100 # That's the release date of the blog entry
 categories: [tool, tool-ready-to-use]
 excerpt: Online Qulifikationstool für J+S-Kurse
-image: assets/tools-frontpage/quali.jpg
+image: assets/tools-frontpage/quali.png
 deplyoment: https://quali.cevi.tools
 authors:
  - github@jeromesigg Amigo
