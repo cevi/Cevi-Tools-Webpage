@@ -18,6 +18,11 @@ export GROUP_ID=$(id -g)
 docker run --user $USER_ID:$GROUP_ID -it --rm -v "$PWD":/usr/src/app -w /usr/src/app ruby:3.2 sh -c "bundle config set --local path 'vendor/bundle' && bundle install"
 ```
 
+Run jekyll build
+```
+docker run --user $USER_ID:$GROUP_ID -it --rm -v "$PWD":/usr/src/app -w /usr/src/app ruby:3.2 sh -c "bundle config set --local path 'vendor/bundle' && bundle install && bundle exec jekyll build --trace"
+```
+
 The preview page can be accessed on http://localhost:4000.
 
 ## Local Development (with local ruby installation)
