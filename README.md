@@ -11,6 +11,13 @@ You can preview your changes locally using docker. Clone the Repo, install docke
 docker compose watch
 ```
 
+Run bundler
+```
+export USER_ID=$(id -u)
+export GROUP_ID=$(id -g)
+docker run --user $USER_ID:$GROUP_ID -it --rm -v "$PWD":/usr/src/app -w /usr/src/app ruby:3.2 sh -c "bundle config set --local path 'vendor/bundle' && bundle install"
+```
+
 The preview page can be accessed on http://localhost:4000.
 
 ## Local Development (with local ruby installation)
