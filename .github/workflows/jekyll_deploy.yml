@@ -11,7 +11,7 @@ jobs:
 
     steps:
     - name: Checkout 🛎️
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
 
     - name: Build 🏗️ with Jekyll 4
       uses: jerryjvl/jekyll-build-action@v1
