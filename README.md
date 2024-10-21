@@ -11,6 +11,23 @@ You can preview your changes locally using docker. Clone the Repo, install docke
 docker compose watch
 ```
 
+Run bundler
+```
+export USER_ID=$(id -u)
+export GROUP_ID=$(id -g)
+docker run --user $USER_ID:$GROUP_ID -it --rm -v "$PWD":/usr/src/app -w /usr/src/app ruby:3.2 sh -c "bundle config set --local path 'vendor/bundle' && bundle install"
+```
+
+Run jekyll build locally (using the default ruby image)
+```
+docker run --user $USER_ID:$GROUP_ID -it --rm -v "$PWD":/usr/src/app -w /usr/src/app ruby:3.2 sh -c "bundle config set --local path 'vendor/bundle' && bundle install && bundle exec jekyll build --trace"
+```
+
+Run jekyll build locally (same as github action)
+```
+docker run -it --rm -v "$PWD":/usr/src/app -w /usr/src/app jekyll/builder:latest jekyll build --trace
+```
+
 The preview page can be accessed on http://localhost:4000.
 
 ## Local Development (with local ruby installation)

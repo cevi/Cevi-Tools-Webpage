@@ -1,4 +1,4 @@
-FROM ruby:3.1-slim-bullseye as jekyll
+FROM ruby:3.2-slim-bullseye AS jekyll
 
 # install prerequisites for Jeykell
 RUN apt-get update && apt-get install -y --no-install-recommends \
