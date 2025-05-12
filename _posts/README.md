@@ -24,6 +24,7 @@ For projects (tools):
 ---
 layout: tool
 title:  "Tool Title"
+index:  0 # The lower the index the higher up on the page the tool will be -> used for sorting
 date:   2021-11-25 12:55:00 +0100 # That's the release date of the blog entry
 categories: [tool, tool-ready-to-use]
 image: assets/tools-frontpage/cevi_logo_generator.jpg

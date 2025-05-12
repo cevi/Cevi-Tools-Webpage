@@ -1,6 +1,7 @@
 ---
 layout: tool
 title:  "Kurs Finder"
+index:  15
 date:   2024-08-24 09:30:00 +0100 # That's the release date of the blog entry
 categories: [tool, tool-ready-to-use]
 excerpt: Finde Cevi-Kurse aus allen Regionen.

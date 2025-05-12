@@ -1,6 +1,7 @@
 ---
 layout: tool
 title:  "Nextcloud Hitobito Login"
+index:  50
 date:   2025-05-11 21:46:00 +0100 # That's the release date of the blog entry
 categories: [tool, tool-ready-to-use]
 excerpt: Synchronisiere deine Nextcloud Instanz mit Hitobit (CeviDB)
