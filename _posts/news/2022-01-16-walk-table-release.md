@@ -8,5 +8,5 @@ authors:
  - github@maede97 Scirocco
 ---
 
-![J+S-Marschzeittabellen Banner](https://github.com/cevi/automatic_walk-time_tables/raw/master/imgs/Claim.png)
+![J+S-Marschzeittabellen Banner](https://github.com/cevi/automatic_walk-time_tables/raw/master/docs/imgs/Claim.png)
 Es ist soweit! Ab sofort können J+S-Marschzeittabellen online unter [map.cevi.tools](http://map.cevi.tools) erstellt werden!
