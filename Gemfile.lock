@@ -9,7 +9,6 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
-    eventmachine (1.2.7-x64-mingw32)
     ffi (1.17.0)
     forwardable-extended (2.6.0)
     http_parser.rb (0.8.0)
@@ -62,8 +61,6 @@ GEM
     safe_yaml (1.0.5)
     sassc (2.4.0)
       ffi (~> 1.9)
-    sassc (2.4.0-x64-mingw32)
-      ffi (~> 1.9)
     terminal-table (2.0.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
     thread_safe (0.3.6)
@@ -73,10 +70,10 @@ GEM
       tzinfo (>= 1.0.0)
     unicode-display_width (1.8.0)
     wdm (0.1.1)
-    webrick (1.8.2)
+    webrick (1.9.2)
 
 PLATFORMS
-  x64-mingw32
+  x64-mingw-ucrt
   x86_64-darwin-21
   x86_64-linux
 
@@ -87,7 +84,7 @@ DEPENDENCIES
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.1)
-  webrick (~> 1.8)
+  webrick (~> 1.9)
 
 BUNDLED WITH
    2.5.22
