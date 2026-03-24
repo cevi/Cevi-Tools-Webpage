@@ -1,4 +1,126 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://cevi.tools/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cevi.tools/" rel="alternate" type="text/html" /><updated>2025-07-15T01:39:10-05:00</updated><id>https://cevi.tools/feed.xml</id><title type="html">Cevi Tools</title><subtitle>Wir entwickeln innovative Webtools für Cevi / Pfadi / Jubla, um die Arbeit in der Abteilung, in Lagern oder Kursen zu vereinfachen.</subtitle><entry><title type="html">Nextcloud Hitobito Login</title><link href="https://cevi.tools/tool/tool-ready-to-use/2025/05/11/nextcloud-hitobito-login.html" rel="alternate" type="text/html" title="Nextcloud Hitobito Login" /><published>2025-05-11T15:46:00-05:00</published><updated>2025-05-11T15:46:00-05:00</updated><id>https://cevi.tools/tool/tool-ready-to-use/2025/05/11/nextcloud-hitobito-login</id><content type="html" xml:base="https://cevi.tools/tool/tool-ready-to-use/2025/05/11/nextcloud-hitobito-login.html"><![CDATA[<p><img src="/assets/nextcloud_hitobito_login_banner.jpg" alt="Nextcloud Hitobito Login Banner" />
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://cevi.tools/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cevi.tools/" rel="alternate" type="text/html" /><updated>2026-03-24T04:40:17-05:00</updated><id>https://cevi.tools/feed.xml</id><title type="html">Cevi Tools</title><subtitle>Wir entwickeln innovative Webtools für Cevi / Pfadi / Jubla, um die Arbeit in der Abteilung, in Lagern oder Kursen zu vereinfachen.</subtitle><entry><title type="html">Onlinemat 2.0</title><link href="https://cevi.tools/release/2026/03/07/onlinemat-release_v.2.0.html" rel="alternate" type="text/html" title="Onlinemat 2.0" /><published>2026-03-07T08:30:00-06:00</published><updated>2026-03-07T08:30:00-06:00</updated><id>https://cevi.tools/release/2026/03/07/onlinemat-release_v.2.0</id><content type="html" xml:base="https://cevi.tools/release/2026/03/07/onlinemat-release_v.2.0.html"><![CDATA[<p>Nach einer längeren Entwicklungspause sind wir endlich zurück – mit vielen neuen Features und Verbesserungen!<br />
+Wir freuen uns über euer Feedback und Fehlermeldungen an <a href="mailto:onlinemat@cevi.tools">onlinemat@cevi.tools</a>.</p>
+
+<p><br />
+<a href="https://mat.cevi.tools">Zum Onlinemat</a></p>
+
+<h2 id="neue-features">Neue Features</h2>
+
+<h3 id="bestellungen-bearbeiten">Bestellungen bearbeiten</h3>
+<ul>
+  <li>Bestellungen können nun nachträglich bearbeitet werden</li>
+  <li>Bestellpositionen können in den Warenkorb kopiert werden</li>
+  <li>Gruppenmitglieder können ebenfalls Bestellungen der Gruppe bearbeiten</li>
+  <li>In der Bestellübersicht kann neu markiert werden, welches Material bereits vorbereitet wurde (mit Detailansicht)</li>
+</ul>
+
+<p><br /></p>
+<h3 id="e-mail-benachrichtigungen">E-Mail-Benachrichtigungen</h3>
+<ul>
+  <li>Automatische E-Mails bei neuen Beitrittsanfragen und Bestellungen</li>
+  <li>Benachrichtigung an Admins bei Kommentaren zu Bestellungen</li>
+  <li>E-Mails bei Annahme und Ablehnung von Anfragen</li>
+  <li>Automatischer Mail-Reminder wenn das Rückgabedatum einer Bestellung abgelaufen ist</li>
+  <li>Automatischer Mail-Reminder wenn die nächste Kontrolle eines Materials ansteht oder die Lebensdauer abgelaufen ist</li>
+</ul>
+
+<p><br /></p>
+<h3 id="einfacher-bestellen-als-gast">Einfacher bestellen als Gast</h3>
+<ul>
+  <li>Gäste können nun direkt Material bestellen, ohne zuerst eine Mitgliedschaft beantragen zu müssen</li>
+</ul>
+
+<p><br /></p>
+<h3 id="einladungen-per-e-mail">Einladungen per E-Mail</h3>
+<ul>
+  <li>Admins können neue Mitglieder direkt per E-Mail einladen</li>
+</ul>
+
+<p><br /></p>
+<h3 id="sammlungen">Sammlungen</h3>
+<ul>
+  <li>Materialien können zu Sammlungen zusammengefasst werden (z.B. «Seilbahnmaterial», «Erste-Hilfe-Set»)</li>
+</ul>
+
+<p><br /></p>
+<h3 id="materialverwaltung--metadaten">Materialverwaltung &amp; Metadaten</h3>
+<ul>
+  <li>Erweiterte Materialinformationen: Kaufdatum, Lebensdauer, Kaufpreis, Lieferant, Inventarnummer, Marke/Hersteller, Zustand, Garantie und Lagerhinweise</li>
+  <li>Wartungshistorie pro Material mit Datum, Typ (Reparatur/Kontrolle/Anschaffung/Sonstiges) und Notizen</li>
+  <li>Metadaten sind nur für Admins und Matverantwortung sichtbar</li>
+  <li>Excel-Import und -Export unterstützt alle neuen Metadaten-Felder</li>
+</ul>
+
+<p><br /></p>
+<h3 id="englische-übersetzung">Englische Übersetzung</h3>
+<ul>
+  <li>Onlinemat ist jetzt auch auf Englisch verfügbar</li>
+</ul>
+
+<p><br /></p>
+<h3 id="genderneutrale-sprache">Genderneutrale Sprache</h3>
+<ul>
+  <li>Gendered Begriffe wie «Matchef», «Besteller» und «Benutzer» wurden durch neutrale Alternativen ersetzt (z.B. «Matverantwortung», «Bestellt von», «Nutzende»)</li>
+</ul>
+
+<p><br /></p>
+<h2 id="verbesserungen">Verbesserungen</h2>
+
+<p><br /></p>
+<h3 id="mobile-ansicht">Mobile Ansicht</h3>
+<ul>
+  <li>Bestellseiten und Admin-Seiten sind jetzt mobilfreundlich</li>
+  <li>Allgemeine Mobile-Ansicht stark verbessert</li>
+</ul>
+
+<p><br /></p>
+<h3 id="suche">Suche</h3>
+<ul>
+  <li>Globale Suche kann einfach ein-/ausgeschaltet werden</li>
+  <li>Suchergebnisse werden automatisch nach Standort und Kategorie vorgefiltert</li>
+  <li>Suche nach Abteilungen hinzugefügt</li>
+  <li>Verbesserte Darstellung der Suchergebnisse</li>
+  <li>Filtermöglichkeit für Material ohne Kategorie</li>
+  <li>Auto-Matching für Excel-Zeilen bei der Suche</li>
+</ul>
+
+<p><br /></p>
+<h3 id="benutzerverwaltung">Benutzerverwaltung</h3>
+<ul>
+  <li>Verbesserte Benutzer- und Profilseite</li>
+  <li>Anzeigename wird korrekt in der Mitgliederliste dargestellt</li>
+  <li>Verbessertes Gruppen-Management-Modal</li>
+  <li>Warnung wenn eine Abteilung bereits existiert</li>
+</ul>
+
+<p><br /></p>
+<h3 id="bestellansicht">Bestellansicht</h3>
+<ul>
+  <li>Bessere Detailansicht für Bestellungen, inkl. Umgang mit gelöschtem Material</li>
+</ul>
+
+<p><br /></p>
+<h3 id="startseite">Startseite</h3>
+<ul>
+  <li>Verbesserte Landing Page</li>
+</ul>
+
+<p><br /></p>
+<h3 id="standard-abteilung">Standard-Abteilung</h3>
+<ul>
+  <li>Benutzer mit nur einer Abteilung bekommen diese automatisch als Standard gesetzt</li>
+</ul>
+
+<p><br /></p>
+<h2 id="bugfixes">Bugfixes</h2>
+
+<ul>
+  <li>Suchfehler im Warenkorb behoben</li>
+  <li>Suche nach Kategorie und Standort korrigiert</li>
+  <li>Weiterleitungsproblem (Redirect) behoben</li>
+  <li>Zugriffsfehler bei Gruppenbestellungen behoben</li>
+  <li>Korrekter Umgang mit gelöschtem Material beim Bearbeiten von Bestellungen</li>
+</ul>]]></content><author><name>github@Leo1212 Orion</name></author><category term="release" /><summary type="html"><![CDATA[Nach einer längeren Entwicklungspause sind wir endlich zurück – mit vielen neuen Features und Verbesserungen! Wir freuen uns über euer Feedback und Fehlermeldungen an onlinemat@cevi.tools.]]></summary></entry><entry><title type="html">Nextcloud Hitobito Login</title><link href="https://cevi.tools/tool/tool-ready-to-use/2025/05/11/nextcloud-hitobito-login.html" rel="alternate" type="text/html" title="Nextcloud Hitobito Login" /><published>2025-05-11T15:46:00-05:00</published><updated>2025-05-11T15:46:00-05:00</updated><id>https://cevi.tools/tool/tool-ready-to-use/2025/05/11/nextcloud-hitobito-login</id><content type="html" xml:base="https://cevi.tools/tool/tool-ready-to-use/2025/05/11/nextcloud-hitobito-login.html"><![CDATA[<p><img src="/assets/nextcloud_hitobito_login_banner.jpg" alt="Nextcloud Hitobito Login Banner" />
 Ziel dieses Projektes ist es, Nextcloud Instanzen besser mit Hitobito (CeviDB) zu verbinden.</p>
 
 <p>Features</p>
@@ -73,15 +195,4 @@ Scannen des QR-Codes können die Kontaktdaten direkt in die Kontakte des Smartph
 
 <p>Die Version 2.2.0 des <a href="https://map.cevi.tools">J+S-Marschzeittabellen-Generators</a> unterstützt nun auch KML Dateien, somit
 können Wanderrouten noch einfacher geplant werden! KML-Dateien können beispielsweise direkt
-vom <a href="https://map.geo.admin.ch">Kartenviewer von Swisstopo</a> heruntergeladen werden.</p>]]></content><author><name>github@maede97 Scirocco</name></author><category term="release" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Neue Version von eMeal - Menüplanung bringt Rezept-Vorlagen.</title><link href="https://cevi.tools/release/2022/01/25/eMeal-v1.13.html" rel="alternate" type="text/html" title="Neue Version von eMeal - Menüplanung bringt Rezept-Vorlagen." /><published>2022-01-25T10:00:00-06:00</published><updated>2022-01-25T10:00:00-06:00</updated><id>https://cevi.tools/release/2022/01/25/eMeal-v1.13</id><content type="html" xml:base="https://cevi.tools/release/2022/01/25/eMeal-v1.13.html"><![CDATA[<h2 id="rezeptvorlagen-in-emeal---menüplanung">Rezeptvorlagen in eMeal - Menüplanung</h2>
-
-<p>eMeal - Menüplanung ermöglicht es die Essensplanung für ein Lager oder Anlass zu automatisieren.
-Denn bei eMeal handelt es sich um eine Webseite, die dir alle mühsamen Aufgaben, wie das Zusammentragen von 
-Einkaufslisten abnimmt und dabei erst noch die Zusammenarbeit erleichtert.</p>
-
-<p><a href="https://emeal.zh11.ch">zu eMeal - Menüplanung</a></p>
-
-<p>Mit Version 1.13.0 (24. Januar 2022) bietet eMeal neu eine breite Palette an erprobten Lager-Rezepten an. Dies ermöglicht es dir binnen Minuten einen Wochenplan 
-zu erstellen. Herzlichen Dank an dieser Stelle an die Autoren des Kochbuchs “Feine Lagerküche” für die Bereitstellung ihrer Rezepte.</p>
-
-<p><a href="https://www.lagerkueche.ch/">Kochbuch bestellen</a></p>]]></content><author><name>github@wp99cp JPG</name></author><category term="release" /><summary type="html"><![CDATA[Rezeptvorlagen in eMeal - Menüplanung]]></summary></entry></feed>
+vom <a href="https://map.geo.admin.ch">Kartenviewer von Swisstopo</a> heruntergeladen werden.</p>]]></content><author><name>github@maede97 Scirocco</name></author><category term="release" /><summary type="html"><![CDATA[]]></summary></entry></feed>
