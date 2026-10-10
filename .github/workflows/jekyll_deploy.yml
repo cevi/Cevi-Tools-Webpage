@@ -13,8 +13,14 @@ jobs:
     - name: Checkout 🛎️
       uses: actions/checkout@v4
 
+    - name: Setup Ruby 💎
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '3.2'
+        bundler-cache: true
+
     - name: Build 🏗️ with Jekyll 4
-      uses: jerryjvl/jekyll-build-action@v1
+      run: bundle exec jekyll build --trace
       
     - name: Deploy 🚀 to GitHub Pages Branch
       uses: peaceiris/actions-gh-pages@v4
