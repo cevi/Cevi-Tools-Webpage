@@ -15,8 +15,14 @@ jobs:
     - name: Checkout 🛎️
       uses: actions/checkout@v4
 
+    - name: Setup Ruby 💎
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '3.2'
+        bundler-cache: true
+
     - name: Build 🏗️
-      uses: jerryjvl/jekyll-build-action@v1
+      run: bundle exec jekyll build --trace
       
     - run: sudo chown -R $USER:$USER .
     - run: |
