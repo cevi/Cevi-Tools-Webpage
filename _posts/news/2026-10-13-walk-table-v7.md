@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Marschzeittabellen-Generator 7.0: neuer Routeneditor und mehr Kartenebenen"
-date: 2026-10-13 16:00:00 +0200
+date: 2026-10-13 12:00:00 +0200
 categories: release
 authors:
   - github@wp99cp JPG
