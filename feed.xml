@@ -1,4 +1,81 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://cevi.tools/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cevi.tools/" rel="alternate" type="text/html" /><updated>2026-10-10T12:47:43+00:00</updated><id>https://cevi.tools/feed.xml</id><title type="html">Cevi Tools</title><subtitle>Wir entwickeln innovative Webtools für Cevi / Pfadi / Jubla, um die Arbeit in der Abteilung, in Lagern oder Kursen zu vereinfachen.</subtitle><entry><title type="html">Onlinemat 2.0</title><link href="https://cevi.tools/release/2026/03/07/onlinemat-release_v.2.0.html" rel="alternate" type="text/html" title="Onlinemat 2.0" /><published>2026-03-07T14:30:00+00:00</published><updated>2026-03-07T14:30:00+00:00</updated><id>https://cevi.tools/release/2026/03/07/onlinemat-release_v.2.0</id><content type="html" xml:base="https://cevi.tools/release/2026/03/07/onlinemat-release_v.2.0.html"><![CDATA[<p>Nach einer längeren Entwicklungspause sind wir endlich zurück – mit vielen neuen Features und Verbesserungen!<br />
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://cevi.tools/feed.xml" rel="self" type="application/atom+xml" /><link href="https://cevi.tools/" rel="alternate" type="text/html" /><updated>2026-11-09T20:00:15+00:00</updated><id>https://cevi.tools/feed.xml</id><title type="html">Cevi Tools</title><subtitle>Wir entwickeln innovative Webtools für Cevi / Pfadi / Jubla, um die Arbeit in der Abteilung, in Lagern oder Kursen zu vereinfachen.</subtitle><entry><title type="html">Neu: Cevi Schichtplan</title><link href="https://cevi.tools/release/2026/11/09/cevi-schichtplan-release.html" rel="alternate" type="text/html" title="Neu: Cevi Schichtplan" /><published>2026-11-09T19:00:00+00:00</published><updated>2026-11-09T19:00:00+00:00</updated><id>https://cevi.tools/release/2026/11/09/cevi-schichtplan-release</id><content type="html" xml:base="https://cevi.tools/release/2026/11/09/cevi-schichtplan-release.html"><![CDATA[<p>Wir freuen uns, den <strong>Cevi Schichtplan</strong> auf Cevi Tools vorstellen zu dürfen!</p>
+
+<p>Die Organisation von Helferinnen und Helfern an der Chilbi, am Sommerlager, Pfingstlager oder Sponsorenlauf bringt oft mühsame Excel-Tabellen und unzählige Chat-Nachrichten mit sich. Der Cevi Schichtplan löst genau dieses Problem mit einer modernen, massgeschneiderten Web-Plattform für Cevi-Abteilungen in der Schweiz.</p>
+
+<p><br /></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><a href="https://cevi-schichtplan.ch">Direkt zum Cevi Schichtplan</a>  </td>
+      <td>  <a href="https://hilfe.cevi-schichtplan.ch">Zum Hilfe-Center</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br /></p>
+
+<h2 id="highlights-auf-einen-blick">Highlights auf einen Blick</h2>
+
+<ul>
+  <li><strong>Eigene Abteilungs-Subdomain:</strong> Jede Abteilung erhält eine eigene Adresse (z. B. <code class="language-plaintext highlighter-rouge">https://&lt;abteilung&gt;.cevi-schichtplan.ch</code>) mit eigenem Logo und Farben.</li>
+  <li><strong>Cevi.DB (Hitobito) Login:</strong> Anmelden mit dem gewohnten Cevi.DB-Account – Cevi-Namen und Leitungsrechte werden automatisch synchronisiert.</li>
+  <li><strong>Multi-Event:</strong> Beliebig viele Anlässe gleichzeitig organisieren und verwalten.</li>
+  <li><strong>Mächtige OK-Planung:</strong> Seriengenerator, Jugendschutz-Regeln (Mindestalter, J+S), Helfer-Pool, PDF- und CSV-Export.</li>
+  <li><strong>Einfach für Helfer*innen:</strong> 1-Klick-Anmeldung, Kalender-Abonnement (Webcal/iCal), QR-Check-in am Stand und eine integrierte «Ersatz gesucht»-Funktion, falls jemand spontan ausfällt.</li>
+  <li><strong>PWA &amp; Offline:</strong> Wichtige Schichtdetails und Notfallkontakte bleiben auch bei schlechtem Mobilfunknetz auf dem Festgelände griffbereit.</li>
+</ul>
+
+<p>Mehr Informationen, Dokumentation und den Quellcode findest du auf <a href="https://github.com/NelsStorch/schichtplan_v2">GitHub</a> sowie in unserem <a href="https://hilfe.cevi-schichtplan.ch">Hilfe-Center</a>.</p>]]></content><author><name>github@NelsStorch Inferno</name></author><category term="release" /><summary type="html"><![CDATA[Wir freuen uns, den Cevi Schichtplan auf Cevi Tools vorstellen zu dürfen!]]></summary></entry><entry><title type="html">Cevi Schichtplan</title><link href="https://cevi.tools/tool/tool-ready-to-use/2026/11/09/cevi-schichtplan.html" rel="alternate" type="text/html" title="Cevi Schichtplan" /><published>2026-11-09T19:00:00+00:00</published><updated>2026-11-09T19:00:00+00:00</updated><id>https://cevi.tools/tool/tool-ready-to-use/2026/11/09/cevi-schichtplan</id><content type="html" xml:base="https://cevi.tools/tool/tool-ready-to-use/2026/11/09/cevi-schichtplan.html"><![CDATA[<p><img src="/assets/tools-frontpage/cevi-schichtplan.png" alt="Cevi Schichtplan Banner" /></p>
+
+<p><strong>Bereit zum Einsatz</strong> – Schluss mit unübersichtlichen Excel-Tabellen, Versionskonflikten und mühsamen Helfer-Einteilungen. Der <strong>Cevi Schichtplan</strong> ist eine moderne, massgeschneiderte Web-Plattform zur Organisation von Schichtplänen, Einsätzen und Helferteams für Cevi-Abteilungen in der Schweiz.</p>
+
+<p>Auf <a href="https://cevi-schichtplan.ch">cevi-schichtplan.ch</a> kannst du den Schichtplan direkt für deine Abteilung und eure nächsten Anlässe einsetzen.</p>
+
+<p><br /></p>
+
+<h2 id="-hauptfunktionen">✨ Hauptfunktionen</h2>
+
+<ul>
+  <li>🏰 <strong>Eigene Abteilungs-Präsenz (Multi-Tenant):</strong> Jede Abteilung erhält eine eigene Subdomain (z. B. <code class="language-plaintext highlighter-rouge">https://&lt;abteilung&gt;.cevi-schichtplan.ch</code>) mit individueller Farbgebung, eigenem Logo und passenden Stufen.</li>
+  <li>🔑 <strong>Cevi.DB (Hitobito) Single Sign-On:</strong> Nahtlose OAuth-2.0-Integration mit der zentralen Verbandsdatenbank <code class="language-plaintext highlighter-rouge">db.cevi.ch</code>. Automatische Synchronisation von Cevi-Namen, Geburtsdaten und Leitungsrechten.</li>
+  <li>⛺ <strong>Multi-Event-Architektur:</strong> Parallele Organisation beliebig vieler Anlässe pro Abteilung (z. B. Chilbi, Pfingstlager, Sommerlager, Suppentag oder Sponsorenlauf).</li>
+  <li>🛠️ <strong>Mächtiger OK-Bereich:</strong>
+    <ul>
+      <li>Schichten-Seriengenerator für wiederkehrende Zeitblöcke.</li>
+      <li>Aufgabenkatalog mit Jugendschutz-Regeln (Mindestalter, J+S-Leitungsanforderungen).</li>
+      <li>Helfer-Pool und Soll-Roster zur Überwachung der Schichtabdeckung.</li>
+      <li>Granulares Rollen- und Rechtesystem.</li>
+      <li>PDF-Druckexport im professionellen Cevi-Design sowie CSV/Excel-Export.</li>
+    </ul>
+  </li>
+  <li>🙋 <strong>Intuitive Helfer*innen-Experience:</strong>
+    <ul>
+      <li>1-Klick-Schichtanmeldung oder unkomplizierte Gast-Eintragung.</li>
+      <li><strong>«Ersatz gesucht»:</strong> Helfer*innen können Schichten bei Verhinderung ausschreiben und direkt weitergeben.</li>
+      <li><strong>PWA &amp; Offline-Briefing:</strong> Schichtdetails, Standorte, Notfallkontakte und Check-in-QR-Code bleiben auch bei schwachem Empfang auf dem Festgelände offline verfügbar.</li>
+      <li><strong>Kalender-Integration:</strong> Webcal Live-Feed (Abonnement mit automatischer Aktualisierung) sowie Export für Google Kalender und Apple iCal.</li>
+      <li><strong>QR-Check-in:</strong> Kontaktloses Einchecken vor Ort am Stand per QR-Code oder digitales Abhaken durch das OK.</li>
+    </ul>
+  </li>
+  <li>🔒 <strong>Datenschutz &amp; Schweizer Recht (nDSG):</strong> Konsequenter Verzicht auf unnötige Datensammelei, konfigurierbare «Nur für Mitglieder»-Absicherung und automatische Datenbereinigung nach Anlässen.</li>
+</ul>
+
+<p><br /></p>
+
+<h2 id="-einblicke">📸 Einblicke</h2>
+
+<p><img src="/assets/schichtplan/anlass.webp" alt="Schichtplan eines Anlasses" /></p>
+
+<p><br /></p>
+
+<h2 id="-nützliche-links">🔗 Nützliche Links</h2>
+
+<ul>
+  <li>🌐 <strong>Plattform &amp; Anmeldung:</strong> <a href="https://cevi-schichtplan.ch">cevi-schichtplan.ch</a></li>
+  <li>📚 <strong>Hilfe-Center &amp; Anleitungen:</strong> <a href="https://hilfe.cevi-schichtplan.ch">hilfe.cevi-schichtplan.ch</a></li>
+  <li>💻 <strong>Open-Source Repository:</strong> <a href="https://github.com/NelsStorch/schichtplan_v2">github.com/NelsStorch/schichtplan_v2</a></li>
+</ul>]]></content><author><name>github@NelsStorch Inferno</name></author><category term="tool" /><category term="tool-ready-to-use" /><summary type="html"><![CDATA[Moderne, mandantenfähige Helfer- und Schichtplanung für Cevi-Abteilungen, Lager und Anlässe.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cevi.tools/assets/tools-frontpage/cevi-schichtplan.png" /><media:content medium="image" url="https://cevi.tools/assets/tools-frontpage/cevi-schichtplan.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Onlinemat 2.0</title><link href="https://cevi.tools/release/2026/03/07/onlinemat-release_v.2.0.html" rel="alternate" type="text/html" title="Onlinemat 2.0" /><published>2026-03-07T14:30:00+00:00</published><updated>2026-03-07T14:30:00+00:00</updated><id>https://cevi.tools/release/2026/03/07/onlinemat-release_v.2.0</id><content type="html" xml:base="https://cevi.tools/release/2026/03/07/onlinemat-release_v.2.0.html"><![CDATA[<p>Nach einer längeren Entwicklungspause sind wir endlich zurück – mit vielen neuen Features und Verbesserungen!<br />
 Wir freuen uns über euer Feedback und Fehlermeldungen an <a href="mailto:onlinemat@cevi.tools">onlinemat@cevi.tools</a>.</p>
 
 <p><br />
@@ -186,13 +263,4 @@ Zugangsdaten automatisch in den WLAN-Einstellungen des Smartphones hinterlegt un
 <h2 id="kontakte">Kontakte</h2>
 
 <p>Mit QR-Codes für Kontakte können ganz Kontaktdaten (Name, Telefonnummer, E-Mail, Adresse) hinterlegt werden. Nach dem
-Scannen des QR-Codes können die Kontaktdaten direkt in die Kontakte des Smartphones übernommen werden.</p>]]></content><author><name>github@wp99cp JPG</name></author><category term="release" /><summary type="html"><![CDATA[Mehr Funktionen und ein neues Design]]></summary></entry><entry><title type="html">Dritter CeviTools Hackathon</title><link href="https://cevi.tools/release/2023/10/01/hackathon.html" rel="alternate" type="text/html" title="Dritter CeviTools Hackathon" /><published>2023-10-01T12:45:00+00:00</published><updated>2023-10-01T12:45:00+00:00</updated><id>https://cevi.tools/release/2023/10/01/hackathon</id><content type="html" xml:base="https://cevi.tools/release/2023/10/01/hackathon.html"><![CDATA[<p>Es ist schon wieder Hackathon-Zeit! Heute fand der dritte Hackathon der CeviTools statt. Wir haben heute fleissig diskutiert - über das neue Datenschutzgesetz, das Online-Mat (siehe Tool in der Toolsammlung) sowie über einen neuen Blog-Post (folgt bald). Auch der URL-Shortener sollte bald bereit sein! Wir freuen uns natürlich auch, dass der QR-Code-Generator so fleissig benutzt wird!</p>]]></content><author><name>github@ThomasHaefliger Goofy</name></author><category term="release" /><summary type="html"><![CDATA[Es ist schon wieder Hackathon-Zeit! Heute fand der dritte Hackathon der CeviTools statt. Wir haben heute fleissig diskutiert - über das neue Datenschutzgesetz, das Online-Mat (siehe Tool in der Toolsammlung) sowie über einen neuen Blog-Post (folgt bald). Auch der URL-Shortener sollte bald bereit sein! Wir freuen uns natürlich auch, dass der QR-Code-Generator so fleissig benutzt wird!]]></summary></entry><entry><title type="html">CeviTools Hackathon</title><link href="https://cevi.tools/release/2023/04/16/hackathon.html" rel="alternate" type="text/html" title="CeviTools Hackathon" /><published>2023-04-16T14:00:00+00:00</published><updated>2023-04-16T14:00:00+00:00</updated><id>https://cevi.tools/release/2023/04/16/hackathon</id><content type="html" xml:base="https://cevi.tools/release/2023/04/16/hackathon.html"><![CDATA[<p>Es ist Hackathon-Zeit! Heute fand der zweite Hackathon der CeviTools statt. Die Infrastruktur ist nun auf dem neusten Stand. Weiter wurde die Homepage angepasst und visuell verbessert. Neue Tools sind in Erstellung und sollten bald veröffentlicht werden!</p>]]></content><author><name>github@ThomasHaefliger Goofy</name></author><category term="release" /><summary type="html"><![CDATA[Es ist Hackathon-Zeit! Heute fand der zweite Hackathon der CeviTools statt. Die Infrastruktur ist nun auf dem neusten Stand. Weiter wurde die Homepage angepasst und visuell verbessert. Neue Tools sind in Erstellung und sollten bald veröffentlicht werden!]]></summary></entry><entry><title type="html">QR Code Generator</title><link href="https://cevi.tools/tool/tool-ready-to-use/2023/04/16/qr-codes.html" rel="alternate" type="text/html" title="QR Code Generator" /><published>2023-04-16T09:30:00+00:00</published><updated>2023-04-16T09:30:00+00:00</updated><id>https://cevi.tools/tool/tool-ready-to-use/2023/04/16/qr-codes</id><content type="html" xml:base="https://cevi.tools/tool/tool-ready-to-use/2023/04/16/qr-codes.html"><![CDATA[<h2 id="cevi-qr-code-generator">Cevi QR-Code Generator</h2>
-<p>QR-Codes sind vielseitig einsetzbar. In der Werbung, Programmen und Kursen kann so einfach der Zugriff auf Web-Inhalte erfolgen. Der <a href="https://qr.cevi.tools">Cevi QR-Code Generator</a> erstellt QR-Codes in Cevi-Farben und mit dem Cevi-Logo.</p>
-
-<p><img src="/assets/qr.png" alt="Cevi QR Code" /></p>]]></content><author><name>github@wp99cp JPG</name></author><category term="tool" /><category term="tool-ready-to-use" /><summary type="html"><![CDATA[Erstelle Cevi QR-Codes]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://cevi.tools/assets/tools-frontpage/qr.png" /><media:content medium="image" url="https://cevi.tools/assets/tools-frontpage/qr.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Von der Schweizerkarte zur Marschzeittabelle (Update 2.2.0)</title><link href="https://cevi.tools/release/2022/04/04/walk-table-update.html" rel="alternate" type="text/html" title="Von der Schweizerkarte zur Marschzeittabelle (Update 2.2.0)" /><published>2022-04-04T07:30:00+00:00</published><updated>2022-04-04T07:30:00+00:00</updated><id>https://cevi.tools/release/2022/04/04/walk-table-update</id><content type="html" xml:base="https://cevi.tools/release/2022/04/04/walk-table-update.html"><![CDATA[<p><img src="https://github.com/cevi/automatic_walk-time_tables/raw/master/docs/imgs/Claim.png" alt="J+S-Marschzeittabellen Banner" /></p>
-
-<p><br /></p>
-
-<p>Die Version 2.2.0 des <a href="https://map.cevi.tools">J+S-Marschzeittabellen-Generators</a> unterstützt nun auch KML Dateien, somit
-können Wanderrouten noch einfacher geplant werden! KML-Dateien können beispielsweise direkt
-vom <a href="https://map.geo.admin.ch">Kartenviewer von Swisstopo</a> heruntergeladen werden.</p>]]></content><author><name>github@maede97 Scirocco</name></author><category term="release" /><summary type="html"><![CDATA[]]></summary></entry></feed>
+Scannen des QR-Codes können die Kontaktdaten direkt in die Kontakte des Smartphones übernommen werden.</p>]]></content><author><name>github@wp99cp JPG</name></author><category term="release" /><summary type="html"><![CDATA[Mehr Funktionen und ein neues Design]]></summary></entry><entry><title type="html">Dritter CeviTools Hackathon</title><link href="https://cevi.tools/release/2023/10/01/hackathon.html" rel="alternate" type="text/html" title="Dritter CeviTools Hackathon" /><published>2023-10-01T12:45:00+00:00</published><updated>2023-10-01T12:45:00+00:00</updated><id>https://cevi.tools/release/2023/10/01/hackathon</id><content type="html" xml:base="https://cevi.tools/release/2023/10/01/hackathon.html"><![CDATA[<p>Es ist schon wieder Hackathon-Zeit! Heute fand der dritte Hackathon der CeviTools statt. Wir haben heute fleissig diskutiert - über das neue Datenschutzgesetz, das Online-Mat (siehe Tool in der Toolsammlung) sowie über einen neuen Blog-Post (folgt bald). Auch der URL-Shortener sollte bald bereit sein! Wir freuen uns natürlich auch, dass der QR-Code-Generator so fleissig benutzt wird!</p>]]></content><author><name>github@ThomasHaefliger Goofy</name></author><category term="release" /><summary type="html"><![CDATA[Es ist schon wieder Hackathon-Zeit! Heute fand der dritte Hackathon der CeviTools statt. Wir haben heute fleissig diskutiert - über das neue Datenschutzgesetz, das Online-Mat (siehe Tool in der Toolsammlung) sowie über einen neuen Blog-Post (folgt bald). Auch der URL-Shortener sollte bald bereit sein! Wir freuen uns natürlich auch, dass der QR-Code-Generator so fleissig benutzt wird!]]></summary></entry><entry><title type="html">CeviTools Hackathon</title><link href="https://cevi.tools/release/2023/04/16/hackathon.html" rel="alternate" type="text/html" title="CeviTools Hackathon" /><published>2023-04-16T14:00:00+00:00</published><updated>2023-04-16T14:00:00+00:00</updated><id>https://cevi.tools/release/2023/04/16/hackathon</id><content type="html" xml:base="https://cevi.tools/release/2023/04/16/hackathon.html"><![CDATA[<p>Es ist Hackathon-Zeit! Heute fand der zweite Hackathon der CeviTools statt. Die Infrastruktur ist nun auf dem neusten Stand. Weiter wurde die Homepage angepasst und visuell verbessert. Neue Tools sind in Erstellung und sollten bald veröffentlicht werden!</p>]]></content><author><name>github@ThomasHaefliger Goofy</name></author><category term="release" /><summary type="html"><![CDATA[Es ist Hackathon-Zeit! Heute fand der zweite Hackathon der CeviTools statt. Die Infrastruktur ist nun auf dem neusten Stand. Weiter wurde die Homepage angepasst und visuell verbessert. Neue Tools sind in Erstellung und sollten bald veröffentlicht werden!]]></summary></entry></feed>
